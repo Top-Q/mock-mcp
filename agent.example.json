@@ -1,0 +1,11 @@
+{
+  "mcpProviders": [
+    {
+      "name": "mock_mcp",
+      "command": "node",
+      "args": ["--enable-source-maps","./dist/src/server.js"],
+      "stdio": "pipe",
+      "env": {}
+    }
+  ]
+}
